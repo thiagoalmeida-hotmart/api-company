@@ -4,7 +4,7 @@ O projeto tem como objetivo a implementação de uma api com entidades e funcion
 
 ## Instalação
 
-O projeto possui um arquivo Dockerfile e um arquivo docker-compose.yml, que podem ser utilizados para encapsular e rodar o projeto utilizando Docker. Primeiramente é necessário gerar um arquivo .jar com as classes e arquivos do projeto, que pode ser feito utilizando o comando **mvn clean install package**. Em seguida, para instalar as imagens com dependências necessárias e rodar o projeto utilizando docker, pode ser utilizado o comando a seguir:
+O projeto possui um arquivo Dockerfile e um arquivo docker-compose.yml, que podem ser utilizados para encapsular e rodar o projeto utilizando Docker. Primeiramente é necessário gerar um arquivo .jar com as classes e arquivos do projeto, que pode ser feito utilizando o comando **mvn clean install package**. Em seguida, para instalar as imagens com dependências necessárias e rodar o projeto utilizando docker, pode ser utilizado o comando a seguir na pasta raiz do projeto, que contém o arquivo Dockerfile e docker-compose.yml:
 
 ```bash
 docker-compose up
