@@ -12,3 +12,9 @@ docker-compose up
 Esse comando analisa e instala as dependências contidas no arquivo docker-compose.yml, gerando imagens para as dependências e a imagem respectiva do projeto, em seguida, roda a aplicação.
 
 Obs: O usuário e senha do banco de dados utilizado no projeto estão contidos no arquivo src/main/java/resoources/application.properties e precisam estar configurados ou alterados para um valor válido antes de rodar o projeto.
+
+## Melhorias
+
+- Criar Factory de cada objeto para popular registros necessários em testes de forma generalizada e reutilizar código;
+- Implementar testes de integração, utilizando **@WebMvcTest** e **@SpringBootTest** e testes do Spring Data JPA utilizando **@DataJpaTest**;
+- Melhorar tratativas de erro;
